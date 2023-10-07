@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Gabarito:wght@400;600&family=Inter:wght@600&family=Lexend+Deca:wght@100;200;300;400;600;800&family=Open+Sans&display=swap');
 
 * {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -16,12 +16,12 @@ body {
 
 .mainHeaderChild {
     background-color: white;
-    height: 150px;
-    width: 100em;
+    height: 192px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 .firstMHC {
@@ -43,7 +43,8 @@ body {
     align-items: center;
 }
 
-#logo h2{
+#logo h2 {
+    font-size: 28px;
     margin-left: -35px;
 }
 
@@ -63,7 +64,8 @@ body {
     background-color: #F8F8F8;
 }
 
-#searchBar input{
+#searchBar input {
+    font-family: 'Inter', sans-serif;
     margin-left: 5px;
     background-color: #F8F8F8;
     width: 480px;
@@ -73,7 +75,7 @@ body {
     outline: none;
 }
 
-#cadastrese a{
+#cadastrese a {
     color: #474747;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -82,14 +84,14 @@ body {
     letter-spacing: 0.75px;
     text-align: left;
     width: 102px;
-height: 28px;
-top: 50px;
-left: 991px;
+    height: 28px;
+    top: 50px;
+    left: 991px;
 
-    
+
 }
 
-#cadastrese a:hover{
+#cadastrese a:hover {
     color: black;
 }
 
