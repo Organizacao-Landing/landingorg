@@ -1,0 +1,39 @@
+h1 {
+    color:  #474747;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 251px;
+    width: 1225px;
+
+}
+.ads1 {
+    background-color: aqua;
+    height: 251px;
+    width: 405px;
+}
+
+.ads2 {
+    background-color: rgb(250, 62, 14);
+    height: 251px;
+    width: 405px;
+}
+.ads3 {
+    background-color: rgb(32, 240, 67);
+    height: 251px;
+    width: 405px;
+}
+.btnb1 {
+    position: absolute;
+    
+}
+.btnb2 {
+    position: absolute;
+    }
+.btnb3 {
+    position: absolute;
+}    
