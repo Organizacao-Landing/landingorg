@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Gabarito:wght@400;600&family=Inter:wght@600&family=Lexend+Deca:wght@100;200;300;400;600;800&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+#headerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainHeaderChild {
+    background-color: white;
+    height: 192px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.firstMHC {
+    height: 129px;
+    width: 993px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 253px;
+    height: 44px;
+    font-family: 'Inter', sans-serif;
+    color: #C92071;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo h2 {
+    font-size: 28px;
+    margin-left: -35px;
+}
+
+#logo img {
+    width: 120px;
+    height: 200px;
+}
+
+#searchBar {
+    align-items: center;
+    display: flex;
+    width: 559px;
+    height: 60px;
+    top: 34px;
+    left: 384px;
+    border-radius: 8px;
+    background-color: #F8F8F8;
+}
+
+#searchBar input {
+    font-family: 'Inter', sans-serif;
+    margin-left: 5px;
+    background-color: #F8F8F8;
+    width: 480px;
+    height: 50px;
+    align-self: center;
+    border-style: none;
+    outline: none;
+}
+
+#cadastrese a {
+    color: #474747;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    width: 102px;
+    height: 28px;
+    top: 50px;
+    left: 991px;
+
+
+}
+
+#cadastrese a:hover {
+    color: black;
+}
+
+#entrar button {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    width: 114px;
+    height: 40px;
+    background-color: #C92071;
+    border-radius: 8px;
+    border-style: none;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#entrar button:hover {
+    background-color: #89164d;
+}
+
+#carrinho img {
+    height: 25px;
+    width: 25px;
+}
